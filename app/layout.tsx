@@ -1,5 +1,6 @@
+'use client' // Added 'use client' directive
+
 import type { Metadata } from 'next'
-// Removed Inter font import
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en"> {/* Removed className={inter.variable} */}
+    <html lang="en">
       <body>{children}</body>
     </html>
   )
