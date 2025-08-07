@@ -1,13 +1,9 @@
 'use client' // Added 'use client' directive
 
-import type { Metadata } from 'next'
+// Removed Metadata import and export
 import './globals.css'
 
-export const metadata: Metadata = {
-  title: 'DeasyLabs Replica',
-  description: 'A replica of DeasyLabs website built with v0',
-  generator: 'v0.dev',
-}
+// Removed export const metadata = {...}
 
 export default function RootLayout({
   children,
@@ -20,3 +16,7 @@ export default function RootLayout({
     </html>
   )
 }
+
+export const metadata = {
+      generator: 'v0.dev'
+    };
