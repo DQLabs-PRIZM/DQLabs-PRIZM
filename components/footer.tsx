@@ -8,56 +8,47 @@ export default function Footer() \{
         <div className="space-y-4">
           <Link href="#" className="flex items-center gap-2 text-lg font-semibold text-white">
             <Mountain className="h-6 w-6" />
-            <span>DeasyLabs</span>
+            <span>DQLabs PRIZM</span>
           </Link>
-          <p className="text-sm">Metadata for AI workflows</p>
-          <p className="text-sm">&copy; 2024 Deasy Labs</p>
+          <p className="text-sm">Intelligent Data Governance</p>
+          <p className="text-sm">&copy; 2024 DQLabs. All rights reserved.</p>
         </div>
         <div className="space-y-2">
-          <h3 className="text-lg font-semibold text-white">Explore</h3>
+          <h3 className="text-lg font-semibold text-white">Product</h3>
           <nav className="space-y-2 text-sm">
-            <Link href="#product" className="block hover:text-white transition-colors">
-              Product
-            </Link>
-            <Link href="#how-it-works" className="block hover:text-white transition-colors">
-              How it works
-            </Link>
-            <Link href="#enterprise" className="block hover:text-white transition-colors">
-              Enterprise
-            </Link>
-            <Link href="#use-cases" className="block hover:text-white transition-colors">
+            <Link href="#features" className="block hover:text-white transition-colors">
               Features
             </Link>
-          </nav>
-        </div>
-        <div className="space-y-2">
-          <h3 className="text-lg font-semibold text-white">Resources</h3>
-          <nav className="space-y-2 text-sm">
-            <Link href="#blog" className="block hover:text-white transition-colors">
-              Blog
+            <Link href="#technology" className="block hover:text-white transition-colors">
+              Technology
             </Link>
-            <Link href="#" className="block hover:text-white transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="block hover:text-white transition-colors">
-              Cookie Policy
-            </Link>
-            <Link href="#" className="block hover:text-white transition-colors">
-              DSAR
+            <Link href="#use-cases" className="block hover:text-white transition-colors">
+              Use Cases
             </Link>
           </nav>
         </div>
         <div className="space-y-2">
           <h3 className="text-lg font-semibold text-white">Company</h3>
           <nav className="space-y-2 text-sm">
-            <Link href="#about-us" className="block hover:text-white transition-colors">
+            <Link href="#" className="block hover:text-white transition-colors">
               About Us
             </Link>
-            <Link href="#careers" className="block hover:text-white transition-colors">
+            <Link href="#" className="block hover:text-white transition-colors">
               Careers
             </Link>
             <Link href="#contact" className="block hover:text-white transition-colors">
-              Book a Demo
+              Contact
+            </Link>
+          </nav>
+        </div>
+        <div className="space-y-2">
+          <h3 className="text-lg font-semibold text-white">Legal</h3>
+          <nav className="space-y-2 text-sm">
+            <Link href="#" className="block hover:text-white transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="#" className="block hover:text-white transition-colors">
+              Terms of Service
             </Link>
           </nav>
         </div>

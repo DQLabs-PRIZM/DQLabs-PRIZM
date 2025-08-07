@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
-  title: 'DeasyLabs Replica',
-  description: 'A replica of DeasyLabs website built with v0',
+  title: 'DQLabs PRIZM',
+  description: 'Unlock the Future of Data Governance with PRIZM',
   generator: 'v0.dev',
 }
 

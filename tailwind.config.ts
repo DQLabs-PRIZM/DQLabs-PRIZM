@@ -47,6 +47,9 @@ const config = \{
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         \},
+        // Custom gradient colors
+        "gradient-start": "#4c2a80", // Deep violet
+        "gradient-end": "#2a4c80",   // Deep indigo/blue
       \},
       borderRadius: \{
         lg: "var(--radius)",

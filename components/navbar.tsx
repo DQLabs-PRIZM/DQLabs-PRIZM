@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, Mountain } from 'lucide-react'
+import { Mountain } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Menu } from 'lucide-react'
 
 export default function Navbar() \{
   const [isScrolled, setIsScrolled] = useState(false)
@@ -31,26 +32,23 @@ export default function Navbar() \{
       <div className="container flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="#" className="flex items-center gap-2 text-lg font-semibold text-white">
           <Mountain className="h-6 w-6" />
-          <span>DeasyLabs</span>
+          <span>DQLabs PRIZM</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="#product" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
-            Product
+          <Link href="#hero" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
+            Home
           </Link>
-          <Link href="#how-it-works" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
-            How it works
+          <Link href="#features" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
+            Features
           </Link>
-          <Link href="#blog" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
-            Blog
+          <Link href="#technology" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
+            Technology
           </Link>
-          <Link href="#about-us" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
-            About Us
+          <Link href="#use-cases" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
+            Use Cases
           </Link>
-          <Link href="#careers" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
-            Careers
-          </Link>
-          <Link href="#faq" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
-            FAQ
+          <Link href="#customers" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">
+            Customers
           </Link>
         </nav>
         <Sheet>
@@ -63,26 +61,23 @@ export default function Navbar() \{
           <SheetContent side="right" className="bg-black text-white border-l border-gray-800">
             <Link href="#" className="flex items-center gap-2 text-lg font-semibold mb-6">
               <Mountain className="h-6 w-6" />
-              <span>DeasyLabs</span>
+              <span>DQLabs PRIZM</span>
             </Link>
             <div className="grid gap-4 py-6">
-              <Link href="#product" className="text-lg font-medium hover:text-gray-300 transition-colors">
-                Product
+              <Link href="#hero" className="text-lg font-medium hover:text-gray-300 transition-colors">
+                Home
               </Link>
-              <Link href="#how-it-works" className="text-lg font-medium hover:text-gray-300 transition-colors">
-                How it works
+              <Link href="#features" className="text-lg font-medium hover:text-gray-300 transition-colors">
+                Features
               </Link>
-              <Link href="#blog" className="text-lg font-medium hover:text-gray-300 transition-colors">
-                Blog
+              <Link href="#technology" className="text-lg font-medium hover:text-gray-300 transition-colors">
+                Technology
               </Link>
-              <Link href="#about-us" className="text-lg font-medium hover:text-gray-300 transition-colors">
-                About Us
+              <Link href="#use-cases" className="text-lg font-medium hover:text-gray-300 transition-colors">
+                Use Cases
               </Link>
-              <Link href="#careers" className="text-lg font-medium hover:text-gray-300 transition-colors">
-                Careers
-              </Link>
-              <Link href="#faq" className="text-lg font-medium hover:text-gray-300 transition-colors">
-                FAQ
+              <Link href="#customers" className="text-lg font-medium hover:text-gray-300 transition-colors">
+                Customers
               </Link>
             </div>
           </SheetContent>
