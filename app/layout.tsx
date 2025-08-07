@@ -1,9 +1,6 @@
-'use client' // Added 'use client' directive
+'use client'
 
-// Removed Metadata import and export
 import './globals.css'
-
-// Removed export const metadata = {...}
 
 export default function RootLayout({
   children,
