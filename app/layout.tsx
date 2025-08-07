@@ -1,9 +1,6 @@
 import type { Metadata } from 'next'
-// Removed GeistSans and GeistMono imports
-import { Inter } from 'next/font/google'
+// Removed Inter font import
 import './globals.css'
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
   title: 'DeasyLabs Replica',
@@ -17,8 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
-      {/* Removed the <style> tag that was causing the error */}
+    <html lang="en"> {/* Removed className={inter.variable} */}
       <body>{children}</body>
     </html>
   )
