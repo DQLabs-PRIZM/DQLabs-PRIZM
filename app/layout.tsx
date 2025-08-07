@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
+// Removed GeistSans and GeistMono imports
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -19,16 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <head>
-        <style dangerouslySetInnerHTML={{ __html: `
-html {
-  font-family: ${GeistSans.style.fontFamily};
-  --font-sans: ${GeistSans.variable};
-  --font-mono: ${GeistMono.variable};
-  --font-inter: ${inter.style.fontFamily};
-}
-        ` }} />
-      </head>
+      {/* Removed the <style> tag that was causing the error */}
       <body>{children}</body>
     </html>
   )
